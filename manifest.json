@@ -1,0 +1,19 @@
+{
+    "name": "NotionApp",
+    "version":"1.0",
+    "description": "Notion desktop for linux, this extesion is a non oficial notion app, but i created to solve a dificult to have a notion desktop on linux.",
+    "icons" :{"16":"Notion_app_logo.png",
+    "32":"Notion_app_logo.png",
+    "48":"Notion_app_logo.png",
+    "64":"Notion_app_logo.png",
+    "128":"Notion_app_logo.png",
+    "256":"Notion_app_logo.png"},
+    "action":{
+        "default_title":"Click to open notion.so"
+    },
+    "background": {
+        "service_worker": "script.js"
+      },
+    "permissions": ["tabs","tabCapture","activeTab","scripting"],
+    "manifest_version":3
+}

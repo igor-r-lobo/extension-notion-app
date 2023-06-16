@@ -1,0 +1,1 @@
+chrome.tabs.tab.favIconUrl("Notion_app_logo.png")
